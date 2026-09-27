@@ -1,0 +1,4 @@
+checkpoint_*.jsonl
+hasil/
+*.log
+__pycache__/
