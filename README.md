@@ -35,7 +35,7 @@ Hasil pengecekan **massal seluruh 46.656 kombinasi domain 3-karakter** (`a-z` + 
 | `data/tersedia_huruf_saja.txt` | **10.446** domain tersedia **tanpa angka** (huruf murni) |
 | `data/tersedia_ada_angka.txt` | **28.365** domain tersedia yang mengandung angka |
 | `data/expired_pending_delete.txt` | 290 domain watchlist (expired / redemption) |
-| `data/terpakai.txt` | 7.555 domain aktif terdaftar |
+| `data/terpakai.txt` | 7.555 domain aktif terdaftar (hasil WHOIS — angka 7.007 dari sapuan DNS saja tidak dipakai karena melewatkan domain tanpa NS) |
 | `data/semua-46656.csv` | **46.656 baris** — status DNS, status WHOIS, registrar, expiry |
 | `data/rekomendasi.txt` | kurasi: kata bermakna, deret alfabet, pola cermin + watchlist |
 | `scripts/myid3_check.py` | skrip pengecekan (fase 1 DNS, fase 3 WHOIS, resumable) |
